@@ -100,7 +100,7 @@ This schematic diagram shows you how pipeline works:
 
 	```bash
 	$ snakemake --snakefile ./workflow/Snakefile \
-          	    --configfile ./workflow/config/config_template.yaml \
+          	    --configfile ./workflow/config/config_testrun.yaml \
 	            --conda-prefix /path/to/conda/envs/tcge-cfmedip-seq-pipeline-sub \
                     --use-conda --cores 4 -p
 	```
